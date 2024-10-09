@@ -1,6 +1,6 @@
 # SWE_2021_41_2024_2_week_6
 ---
-### Week 4 Assignment
+## Week 4 Assignment
 * https://github.com/19eulb/SWE_2021_41_2024_2_week_4
 
 ```python
@@ -20,7 +20,7 @@ output = print(isHappy(n))
 
   ---
 
-### Week 5 Assignment
+## Week 5 Assignment
 > <pre><code> docker exec ossp-container cat /etc/os-release </pre></code>
 >> + show the operating system information of the running Docker container
 
