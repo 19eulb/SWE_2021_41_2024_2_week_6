@@ -31,4 +31,4 @@ output = print(isHappy(n))
 >> + check the version of Python 3 installed in the running Docker container
   
 > <pre><code> docker inspect --format="{{ .HostConfig.Binds }}" <ossp-container> </pre></code>
->> + gprint the path of mounted directory of the Docker container
+>> + print the path of mounted directory of the Docker container
