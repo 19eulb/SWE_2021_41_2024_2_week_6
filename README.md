@@ -3,8 +3,7 @@
 ### Week 4 Assignment
 * https://github.com/19eulb/SWE_2021_41_2024_2_week_4
 
-<pre>
-<code>
+```python
 def isHappy(n):
   num = set()
 
@@ -15,8 +14,7 @@ def isHappy(n):
 
 n = int(input())
 output = print(isHappy(n))
-</code>
-</pre>
+```
 
 * First define function isHappy and delcare an empty set. while loop runs in 2 conditions. n != 1 because it is happy if n is 1, and not in set to avoid repeating. Then add number n to num and convert to string and sum after squaring each digits.
 
