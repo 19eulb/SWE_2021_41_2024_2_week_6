@@ -20,15 +20,15 @@ output = print(isHappy(n))
 
   ---
 
-  ### Week 5 Assignment
-  > <pre><code> docker exec ossp-container cat /etc/os-release </pre></code>
-  >> + show the operating system information of the running Docker container
+### Week 5 Assignment
+> <pre><code> docker exec ossp-container cat /etc/os-release </pre></code>
+>> + show the operating system information of the running Docker container
 
-  > <pre><code> docker exec ossp-container git --version </pre></code>
-  >> + check the version of Git installed in the running Docker container
+> <pre><code> docker exec ossp-container git --version </pre></code>
+>> + check the version of Git installed in the running Docker container
 
-  > <pre><code> docker exec ossp-container python3 --version </pre></code>
-  >> + check the version of Python 3 installed in the running Docker container
+> <pre><code> docker exec ossp-container python3 --version </pre></code>
+>> + check the version of Python 3 installed in the running Docker container
   
-  > <pre><code> docker inspect --format="{{ .HostConfig.Binds }}" <ossp-container> </pre></code>
-  >> + gprint the path of mounted directory of the Docker container
+> <pre><code> docker inspect --format="{{ .HostConfig.Binds }}" <ossp-container> </pre></code>
+>> + gprint the path of mounted directory of the Docker container
